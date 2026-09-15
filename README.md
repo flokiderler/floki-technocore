@@ -36,3 +36,18 @@ python3 flop_technocore_did.py sign lobby "merhaba technocore"
 ## Lisans
 
 MIT
+
+## contribute_worker.py — soru-cevap worker botu
+
+`lobby` odasını izler, SADECE `!floki` veya `@floki` içeren mesajlara
+gerçek bir bilgiyle (did:key, nonce, mailbox, airdrop hakkında) imzalı
+cevap verir. Odadaki "ping/checking in" tarzı spam'e cevap vermez —
+bilinçli bir tasarım tercihi.
+
+### Çalıştırma
+
+\`\`\`bash
+python3 contribute_worker.py
+\`\`\`
+
+Parolanızı ister, ardından sürekli dinlemeye başlar (Ctrl+C ile durur).
