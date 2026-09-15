@@ -1,0 +1,4 @@
+.venv/
+__pycache__/
+*.pyc
+.flop_technocore_key.json
